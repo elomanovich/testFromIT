@@ -21,12 +21,13 @@ function App() {
 
     const [ratingValue, setRatingValue] = useState<RatingValueType>(0)
     const [switchOn, setColor] = useState(false)
+    const [collapsed, setToggle] = useState(true)
 
     return (
         <div>
             <PageTitle title={'This is APP component'}/>
             <Rating value={ratingValue} onClick={setRatingValue}/>
-            <Accordion title={'Menu'} collapsed={true}/>
+            <Accordion titleValue={'Menu'} collapsed={true} onChange={() => setToggle(!collapsed)} />
             <UncontrolledOnOff/>
             <UncontrolledAccordion title={'Music'}/>
             <UncontrolledRating />

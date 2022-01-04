@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8ac23c3-51af-4cd6-a78c-53b034d605b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/OnOff/UncontrolledOnOff.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UncontrolledAccordion/reducer.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UncontrolledAccordion/reducer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/OnOff/OnOff.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OnOff/OnOff.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Rating/Rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/Rating.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UncontrolledAccordion/UncontrolledAccordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledAccordion/UncontrolledAccordion.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,12 +27,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/OnOff" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -40,6 +41,9 @@
       <recent name="$PROJECT_DIR$/src/components/OnOff" />
       <recent name="$PROJECT_DIR$/src/components/UncontrolledRating" />
       <recent name="$PROJECT_DIR$/src/components/UncontrolledAccordion" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="$PROJECT_DIR$/src/components/UncontrolledAccordion/reducer.tsx" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -55,11 +59,29 @@
       <workItem from="1628452218663" duration="2706000" />
       <workItem from="1628845491148" duration="795000" />
       <workItem from="1629137796131" duration="711000" />
-      <workItem from="1629657461366" duration="4859000" />
+      <workItem from="1629657461366" duration="5178000" />
+      <workItem from="1630004487100" duration="613000" />
+      <workItem from="1630005283485" duration="8000" />
+      <workItem from="1630250686701" duration="2914000" />
+      <workItem from="1631346206884" duration="372000" />
+      <workItem from="1631718062195" duration="2000" />
+      <workItem from="1641319430861" duration="4134000" />
     </task>
+    <task id="LOCAL-00001" summary="add controlled components">
+      <created>1629712761304</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629712761304</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add controlled components" />
+    <option name="LAST_COMMIT_MESSAGE" value="add controlled components" />
   </component>
 </project>
