@@ -5,8 +5,7 @@ type OnOffType = {
     onClick: () => void
 }
 
-export const OnOff = (props:OnOffType) => {
-
+export const OnOff = React.memo((props: OnOffType) => {
 
 
     const onStyle = {
@@ -44,4 +43,4 @@ export const OnOff = (props:OnOffType) => {
         </div>
     )
 
-}
+})

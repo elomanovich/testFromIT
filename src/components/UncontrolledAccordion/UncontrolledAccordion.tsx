@@ -29,7 +29,7 @@ type AccordionPropsType = {
 
 
 
-function UncontrolledAccordion(props: AccordionPropsType) {
+export const UncontrolledAccordion = React.memo( function UncontrolledAccordion(props: AccordionPropsType) {
 
     //const [collapsed, setToggle] = useState(true)
     const [collapsed, dispatch] = useReducer(reducer, false)
@@ -40,6 +40,4 @@ function UncontrolledAccordion(props: AccordionPropsType) {
         <AccordionTitle title={props.title} onClick={toggle}/>
         {!collapsed && <AccordionBody/>}
     </div>
-}
-
-export default UncontrolledAccordion;
+})

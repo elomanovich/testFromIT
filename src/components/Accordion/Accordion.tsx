@@ -12,7 +12,7 @@ type AccordionPropsType = {
     onChange: () => void
 }
 
-function Accordion(props: AccordionPropsType) {
+export const AccordionMemo = React.memo(function Accordion(props: AccordionPropsType) {
     console.log('Accordion rendering')
     return <div>
         <AccordionTitle titleValue={props.titleValue}
@@ -21,7 +21,7 @@ function Accordion(props: AccordionPropsType) {
         />
         {/*{!props.collapsed && <AccordionBody items={}/>}*/}
     </div>
-}
+})
 
 type AccordionTitlePropsType = {
     titleValue: string
@@ -46,4 +46,3 @@ function AccordionBody(props: AccordionBodyPropsType) {
     </ul>
 }
 
-export default Accordion;

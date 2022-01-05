@@ -4,7 +4,7 @@ import React, {useState} from "react";
 //     onChange: (value: boolean) => void
 // }
 
-export const UncontrolledOnOff = () => {
+export const UncontrolledOnOff =React.memo( () => {
     const [on, setColor] = useState(false)
 
 
@@ -42,4 +42,4 @@ export const UncontrolledOnOff = () => {
             <div style={indicatorStyle}/></div>
     )
 
-}
+})

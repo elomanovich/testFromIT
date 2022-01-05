@@ -15,7 +15,7 @@ function Star(props: StarPropsType) {
 }
 
 
-export function UncontrolledRating() {
+export const UncontrolledRating = React.memo(function UncontrolledRating() {
     console.log('Rating rendering')
 
     const [value, setValue] = useState(0)
@@ -28,4 +28,4 @@ export function UncontrolledRating() {
             <Star selected={value > 3} onClick={() => setValue(4)}/>
             <Star selected={value > 4} onClick={() => setValue(5)}/>
         </div>)
-}
+})
