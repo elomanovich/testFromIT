@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8ac23c3-51af-4cd6-a78c-53b034d605b6" name="Default Changelist" comment="">
+    <list default="true" id="e8ac23c3-51af-4cd6-a78c-53b034d605b6" name="Default Changelist" comment="added fake test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledAccordion/reducer.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledAccordion/reducer.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledAccordion/reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledAccordion/reducer.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +28,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
@@ -39,6 +43,26 @@
     <key name="es6.move.members.recent.items">
       <recent name="$PROJECT_DIR$/src/components/UncontrolledAccordion/reducer.tsx" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="fake should be true" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/UncontrolledAccordion/reducer.test.tsx" />
+      <test-names>
+        <test-name value="fake should be true" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.fake should be true" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,7 +84,7 @@
       <workItem from="1631346206884" duration="372000" />
       <workItem from="1631718062195" duration="2000" />
       <workItem from="1641319430861" duration="5467000" />
-      <workItem from="1641409404120" duration="1918000" />
+      <workItem from="1641409404120" duration="3936000" />
     </task>
     <task id="LOCAL-00001" summary="add controlled components">
       <created>1629712761304</created>
@@ -83,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641411084775</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactoring">
+      <created>1641497696321</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641497696322</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +124,7 @@
     <MESSAGE value="add controlled components" />
     <MESSAGE value="added useReducer" />
     <MESSAGE value="added React.memo" />
-    <option name="LAST_COMMIT_MESSAGE" value="added React.memo" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
 </project>
