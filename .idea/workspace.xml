@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8ac23c3-51af-4cd6-a78c-53b034d605b6" name="Default Changelist" comment="added fake test">
+    <list default="true" id="e8ac23c3-51af-4cd6-a78c-53b034d605b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Clock/Clock.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledAccordion/reducer.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledAccordion/reducer.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledAccordion/reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledAccordion/reducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +85,9 @@
       <workItem from="1631718062195" duration="2000" />
       <workItem from="1641319430861" duration="5467000" />
       <workItem from="1641409404120" duration="3936000" />
+      <workItem from="1642451029843" duration="506000" />
+      <workItem from="1643749572499" duration="11000" />
+      <workItem from="1650920360420" duration="2889000" />
     </task>
     <task id="LOCAL-00001" summary="add controlled components">
       <created>1629712761304</created>
@@ -114,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641497696322</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added fake test">
+      <created>1642451329650</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642451329650</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +135,7 @@
     <MESSAGE value="added useReducer" />
     <MESSAGE value="added React.memo" />
     <MESSAGE value="refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <MESSAGE value="added fake test" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fake test" />
   </component>
 </project>

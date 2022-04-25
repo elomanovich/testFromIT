@@ -6,6 +6,7 @@ import {UncontrolledOnOff} from "./components/OnOff/UncontrolledOnOff";
 import {UncontrolledRating} from "./components/UncontrolledRating/UncontrolledRating";
 import {OnOff} from "./components/OnOff/OnOff";
 import {UncontrolledAccordion} from "./components/UncontrolledAccordion/UncontrolledAccordion";
+import {Clock} from "./components/Clock/Clock";
 
 function App() {
     type PageTitlePropsType = {
@@ -25,7 +26,7 @@ function App() {
     const [collapsed, setToggle] = useState(true)
 
     return (
-        <div>
+        <div className='clock'>
             <PageTitle title={'This is APP component'}/>
             <Rating value={ratingValue} onClick={setRatingValue}/>
             <AccordionMemo titleValue={'Menu'} collapsed={true} onChange={() => setToggle(!collapsed)}/>
@@ -33,6 +34,7 @@ function App() {
             <UncontrolledAccordion title={'Music'}/>
             <UncontrolledRating/>
             <OnOff onClick={() => setColor(!switchOn)} on={switchOn}/>
+            <Clock/>
         </div>
     );
 }
